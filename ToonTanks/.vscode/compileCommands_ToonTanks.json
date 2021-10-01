@@ -1,0 +1,27 @@
+[
+	{
+		"file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawn\\\\PawnBase.cpp",
+		"command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawn\\\\PawnBase.h",
+		"command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanks.Build.cs",
+		"command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanks.cpp",
+		"command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanks.h",
+		"command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.182.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	}
+]
