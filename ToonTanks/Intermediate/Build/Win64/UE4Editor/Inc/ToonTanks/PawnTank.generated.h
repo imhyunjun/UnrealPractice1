@@ -36,7 +36,7 @@ public: \
 
 #define ToonTanks_Source_ToonTanks_Pawn_PawnTank_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API APawnTank(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API APawnTank(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APawnTank) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APawnTank); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTank); \
@@ -48,8 +48,6 @@ public:
 
 
 #define ToonTanks_Source_ToonTanks_Pawn_PawnTank_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API APawnTank() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APawnTank(APawnTank&&); \
@@ -60,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTank); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APawnTank)
 
 
-#define ToonTanks_Source_ToonTanks_Pawn_PawnTank_h_15_PRIVATE_PROPERTY_OFFSET
+#define ToonTanks_Source_ToonTanks_Pawn_PawnTank_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(APawnTank, SpringArm); } \
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(APawnTank, Camera); }
+
+
 #define ToonTanks_Source_ToonTanks_Pawn_PawnTank_h_12_PROLOG
 #define ToonTanks_Source_ToonTanks_Pawn_PawnTank_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
