@@ -5,7 +5,8 @@
             "intelliSenseMode": "msvc-x64",
             "compileCommands": "D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_ToonTanks.json",
             "cStandard": "c17",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "includePath": ["D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks/**"]
         }
     ],
     "version": 4
