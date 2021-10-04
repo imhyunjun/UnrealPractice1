@@ -850,3 +850,404 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.03-21.11.09:680][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.10.03-21.11.09:682][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
 [2021.10.03-21.11.09:823][990]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.10.03-21.13.15:573][612]LogSlate: Took 0.001145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.03-21.13.15:595][612]Running E:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2021.10.03-21.13.16:004][612]Discovering modules, targets and source code for project...
+[2021.10.03-21.13.17:313][612]Binding IntelliSense data...
+[2021.10.03-21.13.20:742][612]Binding IntelliSense data... 100%
+[2021.10.03-21.13.20:742][612]Writing project files...
+[2021.10.03-21.13.21:347][612]Writing project files... 100%
+[2021.10.03-21.20.55:264][599]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.10.03-21.20.55:265][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.10.03-21.20.55:291][599]LogSavePackage: Moving 'D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_Auto10E608EEA4D96667F6FAEFF88B68597DB.tmp' to 'D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2021.10.03-21.20.55:329][599]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.068
+[2021.10.03-21.20.55:329][599]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.068
+[2021.10.03-21.35.54:708][493]Candidate modules for hot reload:
+[2021.10.03-21.35.54:709][493]  ToonTanks
+[2021.10.03-21.35.54:709][493]Launching UnrealBuildTool... [E:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,9154 ToonTanksEditor Win64 Development -Project="D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.10.03-21.35.54:714][493]Warning: Starting HotReload took  0.0s.
+[2021.10.03-21.36.02:451][358]CompilerResultsLog: New page: 컴파일 - 2021. 10. 4. 오후 3:36:02
+[2021.10.03-21.36.02:451][358]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\workspace\Unreal\ToonTanksProjectSetup_4.25).
+[2021.10.03-21.36.02:451][358]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2021.10.03-21.36.02:451][358]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.10.03-21.36.02:451][358]CompilerResultsLog:   Running UnrealHeaderTool "D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\ToonTanks.uproject" "D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\limhy\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.10.03-21.36.02:451][358]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 3.2065756 seconds
+[2021.10.03-21.36.02:451][358]CompilerResultsLog: Building ToonTanksEditor...
+[2021.10.03-21.36.02:451][358]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.10.03-21.36.02:451][358]CompilerResultsLog: Building 6 actions with 16 processes...
+[2021.10.03-21.36.02:451][358]CompilerResultsLog:   [1/6] ToonTanks.init.gen.cpp
+[2021.10.03-21.36.02:451][358]CompilerResultsLog:   [2/6] PawnTurret.gen.cpp
+[2021.10.03-21.36.02:451][358]CompilerResultsLog:   [3/6] PawnTurret.cpp
+[2021.10.03-21.36.02:451][358]CompilerResultsLog:    D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Pawn\PawnTurret.cpp(37) : error C2027: ???ǵ??? ???? ???? 'APawnTank'??(??) ?????߽??ϴ?.
+[2021.10.03-21.36.02:451][358]CompilerResultsLog:   D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Pawn\PawnTurret.h(9): note: 'APawnTank' ?????? ?????Ͻʽÿ?.
+[2021.10.03-21.36.02:451][358]LogMainFrame: MainFrame: Module compiling took 7.785 seconds
+[2021.10.03-21.36.02:458][358]Warning: HotReload failed, recompile failed
+[2021.10.03-21.36.04:556][594]LogSlate: Took 0.006863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.10.03-21.36.04:556][594]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ǵ (U+01f5)'
+[2021.10.03-21.36.04:566][594]LogSlate: Took 0.008415 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2021.10.03-21.36.08:398][ 50]LogSlate: Took 0.013261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.10.03-21.36.19:592][385]Running E:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2021.10.03-21.36.20:000][385]Discovering modules, targets and source code for project...
+[2021.10.03-21.36.21:309][385]Binding IntelliSense data...
+[2021.10.03-21.36.23:438][385]Binding IntelliSense data... 100%
+[2021.10.03-21.36.23:438][385]Writing project files...
+[2021.10.03-21.36.23:840][385]Writing project files... 100%
+[2021.10.03-21.36.30:034][664]Candidate modules for hot reload:
+[2021.10.03-21.36.30:034][664]  ToonTanks
+[2021.10.03-21.36.30:034][664]Launching UnrealBuildTool... [E:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6423 ToonTanksEditor Win64 Development -Project="D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.10.03-21.36.30:040][664]Warning: Starting HotReload took  0.0s.
+[2021.10.03-21.36.32:259][876]CompilerResultsLog: New page: 컴파일 - 2021. 10. 4. 오후 3:36:32
+[2021.10.03-21.36.32:259][876]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\workspace\Unreal\ToonTanksProjectSetup_4.25).
+[2021.10.03-21.36.32:259][876]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2021.10.03-21.36.32:259][876]CompilerResultsLog: Building ToonTanksEditor...
+[2021.10.03-21.36.32:259][876]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.10.03-21.36.32:259][876]CompilerResultsLog: Building 4 actions with 16 processes...
+[2021.10.03-21.36.32:259][876]CompilerResultsLog:   [1/4] PawnTurret.cpp
+[2021.10.03-21.36.32:259][876]CompilerResultsLog:    D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Pawn\PawnTurret.cpp(37) : error C2027: ???ǵ??? ???? ???? 'APawnTank'??(??) ?????߽??ϴ?.
+[2021.10.03-21.36.32:259][876]CompilerResultsLog:   D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Pawn\PawnTurret.h(9): note: 'APawnTank' ?????? ?????Ͻʽÿ?.
+[2021.10.03-21.36.32:259][876]LogMainFrame: MainFrame: Module compiling took 2.233 seconds
+[2021.10.03-21.36.32:259][876]Warning: HotReload failed, recompile failed
+[2021.10.03-21.39.24:432][519]Running E:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2021.10.03-21.39.24:840][519]Discovering modules, targets and source code for project...
+[2021.10.03-21.39.26:151][519]Binding IntelliSense data...
+[2021.10.03-21.39.28:183][519]Binding IntelliSense data... 100%
+[2021.10.03-21.39.28:183][519]Writing project files...
+[2021.10.03-21.39.28:585][519]Writing project files... 100%
+[2021.10.03-21.43.53:670][573]Candidate modules for hot reload:
+[2021.10.03-21.43.53:670][573]  ToonTanks
+[2021.10.03-21.43.53:671][573]Launching UnrealBuildTool... [E:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,4788 ToonTanksEditor Win64 Development -Project="D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.10.03-21.43.53:676][573]Warning: Starting HotReload took  0.0s.
+[2021.10.03-21.44.02:433][898]CompilerResultsLog: New page: 컴파일 - 2021. 10. 4. 오후 3:44:02
+[2021.10.03-21.44.02:433][898]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\workspace\Unreal\ToonTanksProjectSetup_4.25).
+[2021.10.03-21.44.02:434][898]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2021.10.03-21.44.02:434][898]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.10.03-21.44.02:434][898]CompilerResultsLog:   Running UnrealHeaderTool "D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\ToonTanks.uproject" "D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\limhy\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.10.03-21.44.02:434][898]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 3.1555243 seconds
+[2021.10.03-21.44.02:434][898]CompilerResultsLog: Building ToonTanksEditor...
+[2021.10.03-21.44.02:434][898]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.10.03-21.44.02:434][898]CompilerResultsLog: Building 6 actions with 16 processes...
+[2021.10.03-21.44.02:434][898]CompilerResultsLog:   [1/6] ToonTanks.init.gen.cpp
+[2021.10.03-21.44.02:434][898]CompilerResultsLog:   [2/6] PawnTurret.gen.cpp
+[2021.10.03-21.44.02:434][898]CompilerResultsLog:   [3/6] PawnTurret.cpp
+[2021.10.03-21.44.02:434][898]CompilerResultsLog:   [4/6] UE4Editor-ToonTanks-4788.lib
+[2021.10.03-21.44.02:434][898]CompilerResultsLog:      D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4788.lib ???̺귯?? ?? D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4788.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.10.03-21.44.02:434][898]CompilerResultsLog:   [5/6] UE4Editor-ToonTanks-4788.dll
+[2021.10.03-21.44.02:434][898]CompilerResultsLog:      D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4788.suppressed.lib ???̺귯?? ?? D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4788.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.10.03-21.44.02:434][898]CompilerResultsLog:   [6/6] ToonTanksEditor.target
+[2021.10.03-21.44.02:434][898]CompilerResultsLog: Total time in Parallel executor: 3.89 seconds
+[2021.10.03-21.44.02:434][898]CompilerResultsLog: Total execution time: 8.65 seconds
+[2021.10.03-21.44.02:434][898]LogMainFrame: MainFrame: Module compiling took 8.768 seconds
+[2021.10.03-21.44.02:461][898]LogClass: Could not find existing class PawnTurret in package /Script/ToonTanks for HotReload, assuming new class
+[2021.10.03-21.44.02:467][898]LogHotReload: Re-instancing PawnTurret after hot-reload.
+[2021.10.03-21.44.02:542][898]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0002 seconds. Added 3 classes and 3 folders.
+[2021.10.03-21.44.02:543][898]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.03-21.44.02:574][898]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0070 seconds. Added 3604 classes and 862 folders.
+[2021.10.03-21.44.02:574][898]Display: HotReload took  8.9s.
+[2021.10.03-21.44.36:120][127]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Pawn/BP_PawnTurret.BP_PawnTurret
+[2021.10.03-21.44.36:379][127]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.10.03-21.44.38:884][306]LogSlate: Window 'BP_PawnTurret' being destroyed
+[2021.10.03-21.44.38:904][306]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.03-21.44.38:904][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.03-21.44.38:953][306]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Pawn/BP_PawnTurret.BP_PawnTurret
+[2021.10.03-21.44.39:396][306]LogSlate: Took 0.002088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.10.03-21.44.45:604][965]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprint/Pawn/BP_PawnTurret.BP_PawnTurret from PawnBase to PawnTurret...
+[2021.10.03-21.44.45:618][965]BlueprintLog: New page: BP_PawnTurret 컴파일
+[2021.10.03-21.44.45:648][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.10.03-21.45.02:305][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Pawn/BP_PawnTurret" FILE="D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprint/Pawn/BP_PawnTurret.uasset" SILENT=true
+[2021.10.03-21.45.02:335][353]LogSavePackage: Moving 'D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTurret0DB10A0F4415043FF570498A3503DE44.tmp' to 'D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprint/Pawn/BP_PawnTurret.uasset'
+[2021.10.03-21.45.02:351][353]AssetCheck: New page: 애셋 저장: BP_PawnTurret
+[2021.10.03-21.45.02:351][353]LogContentValidation: Display: Blueprint /Game/Blueprint/Pawn/BP_PawnTurret.BP_PawnTurret 유효성 검사
+[2021.10.03-21.45.03:260][444]BlueprintLog: New page: BP_PawnTurret 컴파일
+[2021.10.03-21.45.03:303][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.10.03-21.45.05:386][631]BlueprintLog: New page: BP_PawnTurret 컴파일
+[2021.10.03-21.45.05:411][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.10.03-21.45.17:149][854]Cmd: DELETE
+[2021.10.03-21.45.17:149][854]Cmd: ACTOR DELETE
+[2021.10.03-21.45.17:164][854]LogEditorActor: Deleted Actor: PawnTurret
+[2021.10.03-21.45.17:179][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.10.03-21.45.17:180][854]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2021.10.03-21.45.44:639][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.10.03-21.45.44:669][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.10.03-21.45.44:682][112]LogSavePackage: Moving 'D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_Auto2E8CB6A3F47143FEDB0069FB563A3317A.tmp' to 'D:/workspace/Unreal/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto2.umap'
+[2021.10.03-21.45.44:713][112]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.086
+[2021.10.03-21.45.44:713][112]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.086
+[2021.10.03-21.45.50:822][340]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.03-21.45.50:830][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.03-21.45.50:830][340]PIE: New page: PIE 세션: Main (2021. 10. 4. 오후 3:45:50)
+[2021.10.03-21.45.50:830][340]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.10.03-21.45.50:833][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002413s)
+[2021.10.03-21.45.50:833][340]LogAIModule: Creating AISystem for world Main
+[2021.10.03-21.45.50:833][340]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2021.10.03-21.45.50:833][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003276s)
+[2021.10.03-21.45.50:847][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.10.03-21.45.50:848][340]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.10.03-21.45.50:848][340]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.03-21.45.50:848][340]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.03-21.45.50:848][340]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.03-21.45.50:848][340]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.03-21.45.50:848][340]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.03-21.45.50:848][340]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.03-21.45.50:848][340]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.03-21.45.50:848][340]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.03-21.45.50:848][340]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.03-21.45.50:848][340]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.03-21.45.50:857][340]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.03-21.45.50:857][340]LogAudioMixer: Display: 1: FrontRight
+[2021.10.03-21.45.50:870][340]LogAudioMixer: Display: Using Audio Device MSI G27C5(NVIDIA High Definition Audio)
+[2021.10.03-21.45.50:870][340]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.03-21.45.50:870][340]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.03-21.45.50:870][340]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.03-21.45.50:870][340]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.03-21.45.50:870][340]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.03-21.45.50:870][340]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.03-21.45.50:881][340]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.03-21.45.50:881][340]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.03-21.45.50:881][340]LogInit: FAudioDevice initialized.
+[2021.10.03-21.45.50:881][340]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2021.10.03-21.45.50:888][340]LogLoad: Game class is 'GameModeBase'
+[2021.10.03-21.45.50:889][340]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.10.04-06.45.50
+[2021.10.03-21.45.50:889][340]LogWorld: Bringing up level for play took: 0.000757
+[2021.10.03-21.45.50:890][340]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.10.03-21.45.50:902][340]PIE: 서버가 로그인했습니다.
+[2021.10.03-21.45.50:902][340]PIE: 에디터에서 플레이 총 시작 시간 0.077초입니다.
+[2021.10.03-21.45.56:825][ 41]LogTemp: Warning: Fire
+[2021.10.03-21.45.57:053][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.03-21.45.57:053][ 65]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.10.03-21.45.57:054][ 65]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.10.03-21.45.57:054][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.03-21.45.57:062][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.03-21.45.57:065][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.03-21.45.57:077][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.03-21.45.57:077][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.03-21.45.57:078][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.03-21.45.57:093][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.10.03-21.45.57:127][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.10.03-21.46.02:067][603]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.03-21.46.02:074][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.03-21.46.02:074][603]PIE: New page: PIE 세션: Main (2021. 10. 4. 오후 3:46:02)
+[2021.10.03-21.46.02:111][603]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.10.03-21.46.02:113][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002449s)
+[2021.10.03-21.46.02:114][603]LogAIModule: Creating AISystem for world Main
+[2021.10.03-21.46.02:114][603]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2021.10.03-21.46.02:114][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003330s)
+[2021.10.03-21.46.02:129][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.10.03-21.46.02:129][603]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.10.03-21.46.02:130][603]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.03-21.46.02:130][603]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.03-21.46.02:130][603]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.03-21.46.02:130][603]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.03-21.46.02:130][603]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.03-21.46.02:130][603]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.03-21.46.02:130][603]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.03-21.46.02:130][603]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.03-21.46.02:130][603]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.03-21.46.02:130][603]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.03-21.46.02:139][603]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.03-21.46.02:139][603]LogAudioMixer: Display: 1: FrontRight
+[2021.10.03-21.46.02:154][603]LogAudioMixer: Display: Using Audio Device MSI G27C5(NVIDIA High Definition Audio)
+[2021.10.03-21.46.02:154][603]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.03-21.46.02:154][603]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.03-21.46.02:154][603]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.03-21.46.02:154][603]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.03-21.46.02:155][603]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.03-21.46.02:155][603]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.03-21.46.02:166][603]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.03-21.46.02:166][603]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.03-21.46.02:166][603]LogInit: FAudioDevice initialized.
+[2021.10.03-21.46.02:166][603]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main'.
+[2021.10.03-21.46.02:174][603]LogLoad: Game class is 'GameModeBase'
+[2021.10.03-21.46.02:175][603]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.10.04-06.46.02
+[2021.10.03-21.46.02:175][603]LogWorld: Bringing up level for play took: 0.000700
+[2021.10.03-21.46.02:175][603]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.10.03-21.46.02:177][603]PIE: 서버가 로그인했습니다.
+[2021.10.03-21.46.02:177][603]PIE: 에디터에서 플레이 총 시작 시간 0.107초입니다.
+[2021.10.03-21.46.06:183][ 52]LogTemp: Warning: Fire
+[2021.10.03-21.46.08:183][292]LogTemp: Warning: Fire
+[2021.10.03-21.46.10:183][532]LogTemp: Warning: Fire
+[2021.10.03-21.46.11:004][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.03-21.46.11:004][626]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.10.03-21.46.11:005][626]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.10.03-21.46.11:005][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.03-21.46.11:014][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.03-21.46.11:017][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.03-21.46.11:030][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.03-21.46.11:030][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.03-21.46.11:031][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.03-21.46.11:046][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.10.03-21.46.11:074][628]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.10.03-22.55.13:743][ 87]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.10.03-22.55.13:743][ 87]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.03-22.55.13:744][ 87]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.10.04-03.18.38:503][901]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.10.04-03.18.40:878][901]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.10.04-03.18.40:879][901]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.10.04-03.18.43:104][902]LogHttp: Warning: 0000022E224C9D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0868B8CD-4A41-6580-469D-9482B4C7A465%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=77dd254d4622ed969cc6f7b4eee7ecf3%7C17092156781c450197b8e9e5dd76fb5c%7C1a2fb536-da04-4ce2-9fb1-7152a40c685e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.10.04-03.18.43:104][902]LogHttp: Warning: 0000022E224C9D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.10.04-03.18.43:104][902]LogHttp: Warning: 0000022E224C9D00: libcurl info message cache 0 (Connection 0 seems to be dead!)
+[2021.10.04-03.18.43:104][902]LogHttp: Warning: 0000022E224C9D00: libcurl info message cache 1 (Closing connection 0)
+[2021.10.04-03.18.43:104][902]LogHttp: Warning: 0000022E224C9D00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.10.04-03.18.43:104][902]LogHttp: Warning: 0000022E224C9D00: libcurl info message cache 3 (Closing connection 1)
+[2021.10.04-03.18.43:104][902]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0868B8CD-4A41-6580-469D-9482B4C7A465%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=77dd254d4622ed969cc6f7b4eee7ecf3%7C17092156781c450197b8e9e5dd76fb5c%7C1a2fb536-da04-4ce2-9fb1-7152a40c685e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.10.04-03.18.43:395][902]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.10.04-03.18.43:395][902]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.10.04-03.18.43:395][902]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.10.04-03.18.43:416][902]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.10.04-06.03.48:535][857]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.10.04-06.03.48:535][857]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.10.04-06.03.50:199][857]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.10.04-06.03.52:984][857]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.10.04-06.03.53:030][857]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.04-06.03.53:030][857]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.10.04-06.03.53:071][857]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.04-06.03.53:071][857]LogAudioMixer: Display: 1: FrontRight
+[2021.10.04-06.03.53:446][858]LogHttp: Warning: 0000022E223D0800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0868B8CD-4A41-6580-469D-9482B4C7A465%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=77dd254d4622ed969cc6f7b4eee7ecf3%7C17092156781c450197b8e9e5dd76fb5c%7C1a2fb536-da04-4ce2-9fb1-7152a40c685e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.10.04-06.03.53:446][858]LogHttp: Warning: 0000022E223D0800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.10.04-06.03.53:446][858]LogHttp: Warning: 0000022E223D0800: libcurl info message cache 0 (Connection 2 seems to be dead!)
+[2021.10.04-06.03.53:446][858]LogHttp: Warning: 0000022E223D0800: libcurl info message cache 1 (Closing connection 2)
+[2021.10.04-06.03.53:446][858]LogHttp: Warning: 0000022E223D0800: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.10.04-06.03.53:446][858]LogHttp: Warning: 0000022E223D0800: libcurl info message cache 3 (Closing connection 3)
+[2021.10.04-06.03.53:446][858]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0868B8CD-4A41-6580-469D-9482B4C7A465%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=77dd254d4622ed969cc6f7b4eee7ecf3%7C17092156781c450197b8e9e5dd76fb5c%7C1a2fb536-da04-4ce2-9fb1-7152a40c685e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.10.04-06.03.53:519][858]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.10.04-06.03.53:519][858]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.10.04-06.03.53:519][858]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.10.04-06.03.53:528][858]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.10.04-06.04.47:667][ 18]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.10.04-06.04.47:667][ 18]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.04-06.04.47:668][ 18]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.10.04-06.10.54:213][112]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.10.04-06.10.54:213][112]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.04-06.10.54:213][112]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.10.04-06.10.54:251][112]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.04-06.10.54:251][112]LogAudioMixer: Display: 1: FrontRight
+[2021.10.04-06.10.54:446][112]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x80070490: 요소가 없습니다. (line: 1271)
+[2021.10.04-06.10.56:918][115]LogRenderer: Reallocating scene render targets to support 1124x600 Format 10 NumSamples 1 (Frame:10125).
+[2021.10.04-06.10.56:946][115]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.04-06.10.56:954][115]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.04-06.10.56:954][115]LogAudioMixer: Display: 1: FrontRight
+[2021.10.04-06.11.49:340][272]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.10.04-06.11.49:340][272]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.04-06.11.49:341][272]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.10.04-06.36.25:530][680]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.10.04-06.36.25:863][681]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{df911e15-a678-4ea6-bc32-964c116659ab}.
+[2021.10.04-06.36.26:198][682]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.10.04-06.36.27:911][683]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.10.04-06.36.27:911][683]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.04-06.36.27:911][683]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.10.04-06.36.27:920][683]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.04-06.36.27:920][683]LogAudioMixer: Display: 1: FrontRight
+[2021.10.04-07.21.54:856][132]LogSlate: Window '메시지 로그' being destroyed
+[2021.10.04-07.21.54:859][132]LogSlate: Window '메시지 로그' being destroyed
+[2021.10.04-07.21.56:429][298]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.04-07.21.56:437][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.04-07.21.56:437][298]PIE: New page: PIE 세션: Main (2021. 10. 5. 오전 1:21:56)
+[2021.10.04-07.21.56:437][298]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.10.04-07.21.56:441][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003884s)
+[2021.10.04-07.21.56:442][298]LogAIModule: Creating AISystem for world Main
+[2021.10.04-07.21.56:442][298]LogPlayLevel: PIE: World Init took: (0.001169s)
+[2021.10.04-07.21.56:442][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005160s)
+[2021.10.04-07.21.56:458][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.10.04-07.21.56:459][298]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.10.04-07.21.56:459][298]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.04-07.21.56:459][298]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.04-07.21.56:459][298]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.04-07.21.56:459][298]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.04-07.21.56:459][298]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.04-07.21.56:459][298]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.04-07.21.56:459][298]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.04-07.21.56:459][298]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.04-07.21.56:459][298]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.04-07.21.56:460][298]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.04-07.21.56:471][298]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.04-07.21.56:471][298]LogAudioMixer: Display: 1: FrontRight
+[2021.10.04-07.21.56:487][298]LogAudioMixer: Display: Using Audio Device MSI G27C5(NVIDIA High Definition Audio)
+[2021.10.04-07.21.56:487][298]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.04-07.21.56:487][298]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.04-07.21.56:487][298]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.04-07.21.56:488][298]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.04-07.21.56:488][298]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.04-07.21.56:488][298]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.04-07.21.56:499][298]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.04-07.21.56:499][298]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.04-07.21.56:499][298]LogInit: FAudioDevice initialized.
+[2021.10.04-07.21.56:499][298]LogAudio: Display: Audio Device (ID: 5) registered with world 'Main'.
+[2021.10.04-07.21.56:503][298]LogLoad: Game class is 'GameModeBase'
+[2021.10.04-07.21.56:504][298]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.10.04-16.21.56
+[2021.10.04-07.21.56:505][298]LogWorld: Bringing up level for play took: 0.000978
+[2021.10.04-07.21.56:505][298]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.10.04-07.21.56:506][298]PIE: 서버가 로그인했습니다.
+[2021.10.04-07.21.56:507][298]PIE: 에디터에서 플레이 총 시작 시간 0.074초입니다.
+[2021.10.04-07.21.58:430][520]LogTemp: Warning: Fire
+[2021.10.04-07.22.00:430][760]LogTemp: Warning: Fire
+[2021.10.04-07.22.02:431][  0]LogTemp: Warning: Fire
+[2021.10.04-07.22.04:436][240]LogTemp: Warning: Fire
+[2021.10.04-07.22.06:436][480]LogTemp: Warning: Fire
+[2021.10.04-07.22.08:436][720]LogTemp: Warning: Fire
+[2021.10.04-07.22.09:617][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.04-07.22.09:617][855]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.10.04-07.22.09:617][855]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.10.04-07.22.09:618][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.04-07.22.09:632][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.04-07.22.09:637][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.04-07.22.09:652][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.04-07.22.09:652][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.04-07.22.09:653][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.04-07.22.09:669][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.10.04-07.22.09:683][856]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.10.04-07.22.11:447][ 61]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.04-07.22.11:454][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.04-07.22.11:454][ 61]PIE: New page: PIE 세션: Main (2021. 10. 5. 오전 1:22:11)
+[2021.10.04-07.22.11:478][ 61]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.10.04-07.22.11:480][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002220s)
+[2021.10.04-07.22.11:481][ 61]LogAIModule: Creating AISystem for world Main
+[2021.10.04-07.22.11:481][ 61]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2021.10.04-07.22.11:481][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003068s)
+[2021.10.04-07.22.11:495][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.10.04-07.22.11:495][ 61]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.10.04-07.22.11:495][ 61]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.04-07.22.11:495][ 61]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.04-07.22.11:495][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.04-07.22.11:495][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.04-07.22.11:495][ 61]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.04-07.22.11:495][ 61]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.04-07.22.11:495][ 61]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.04-07.22.11:495][ 61]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.04-07.22.11:495][ 61]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.04-07.22.11:495][ 61]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.04-07.22.11:504][ 61]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.04-07.22.11:504][ 61]LogAudioMixer: Display: 1: FrontRight
+[2021.10.04-07.22.11:519][ 61]LogAudioMixer: Display: Using Audio Device MSI G27C5(NVIDIA High Definition Audio)
+[2021.10.04-07.22.11:519][ 61]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.04-07.22.11:519][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.04-07.22.11:519][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.04-07.22.11:519][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.04-07.22.11:519][ 61]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.04-07.22.11:519][ 61]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.04-07.22.11:531][ 61]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.04-07.22.11:531][ 61]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.04-07.22.11:531][ 61]LogInit: FAudioDevice initialized.
+[2021.10.04-07.22.11:531][ 61]LogAudio: Display: Audio Device (ID: 6) registered with world 'Main'.
+[2021.10.04-07.22.11:552][ 61]LogLoad: Game class is 'GameModeBase'
+[2021.10.04-07.22.11:556][ 61]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.10.04-16.22.11
+[2021.10.04-07.22.11:557][ 61]LogWorld: Bringing up level for play took: 0.003248
+[2021.10.04-07.22.11:557][ 61]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.10.04-07.22.11:564][ 61]PIE: 서버가 로그인했습니다.
+[2021.10.04-07.22.11:566][ 61]PIE: 에디터에서 플레이 총 시작 시간 0.115초입니다.
+[2021.10.04-07.22.15:252][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.04-07.22.15:252][478]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.10.04-07.22.15:252][478]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.10.04-07.22.15:252][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.04-07.22.15:259][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.04-07.22.15:264][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.04-07.22.15:275][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.04-07.22.15:275][478]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.04-07.22.15:276][478]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.04-07.22.15:291][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.10.04-07.22.15:305][479]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.10.04-13.07.08:317][346]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{842dea59-d4b8-49cd-ad50-1ec6ddd122ea}.
+[2021.10.04-13.07.08:317][346]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.04-13.07.08:358][346]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.04-13.07.08:358][346]LogAudioMixer: Display: 1: FrontRight
+[2021.10.04-13.13.45:756][533]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{df911e15-a678-4ea6-bc32-964c116659ab}.
+[2021.10.04-13.13.45:756][533]LogAudioMixer: Resetting audio stream to device id 
+[2021.10.04-13.13.45:788][533]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.04-13.13.45:788][533]LogAudioMixer: Display: 1: FrontRight

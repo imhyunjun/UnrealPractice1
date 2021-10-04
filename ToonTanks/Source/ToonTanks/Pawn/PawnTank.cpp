@@ -30,6 +30,7 @@ void APawnTank::Tick(float DeltaTime)
     Move();
 }
 
+
 // Called to bind functionality to input
 void APawnTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -60,3 +61,4 @@ void APawnTank::Rotate()
 {
     AddActorLocalRotation(RotationDirection, true);
 }
+
