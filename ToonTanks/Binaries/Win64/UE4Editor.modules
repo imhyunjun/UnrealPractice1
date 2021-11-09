@@ -1,7 +1,7 @@
 {
-	"BuildId": "14830424",
+	"BuildId": "17155196",
 	"Modules": 
 	{
-		"ToonTanks": "UE4Editor-ToonTanks-4788.dll"
+		"ToonTanks": "UE4Editor-ToonTanks.dll"
 	}
 }

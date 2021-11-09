@@ -39,7 +39,7 @@ public: \
 	NO_API APawnTank(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APawnTank) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APawnTank); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTank); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTank); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APawnTank(APawnTank&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API APawnTank(const APawnTank&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APawnTank); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTank); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTank); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APawnTank)
 
 

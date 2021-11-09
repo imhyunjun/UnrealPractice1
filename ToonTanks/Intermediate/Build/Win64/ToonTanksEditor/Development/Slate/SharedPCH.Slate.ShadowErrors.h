@@ -1,4 +1,4 @@
-// PCH for E:\UE_4.26\Engine\Source\Runtime\Slate\Public\SlateSharedPCH.h
+// PCH for D:\UE_4.27\Engine\Source\Runtime\Slate\Public\SlateSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -51,6 +51,7 @@
 #define WITH_MALLOC_STOMP 1
 #define CORE_API DLLIMPORT
 #define TRACELOG_API DLLIMPORT
+#define UNIQUENETID_ESPMODE ESPMode::Fast
 #define COREUOBJECT_API DLLIMPORT
 #define APPLICATIONCORE_API DLLIMPORT
 #define RHI_API DLLIMPORT
@@ -63,4 +64,4 @@
 #define WITH_LIBJPEGTURBO 1
 #define WITH_UNREALEXR 1
 #define IMAGEWRAPPER_API DLLIMPORT
-#include "E:/UE_4.26/Engine/Source/Runtime/Slate/Public/SlateSharedPCH.h"
+#include "D:/UE_4.27/Engine/Source/Runtime/Slate/Public/SlateSharedPCH.h"

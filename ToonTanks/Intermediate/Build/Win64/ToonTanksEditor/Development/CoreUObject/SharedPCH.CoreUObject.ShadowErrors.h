@@ -1,4 +1,4 @@
-// PCH for E:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\CoreUObjectSharedPCH.h
+// PCH for D:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\CoreUObjectSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -44,6 +44,8 @@
 #define NDEBUG 1
 #define UE_BUILD_DEVELOPMENT 1
 #define UE_IS_ENGINE_MODULE 1
+#define UNIQUENETID_ESPMODE ESPMode::Fast
+#define UNIQUENETID_ESPMODE ESPMode::Fast
 #define COREUOBJECT_API DLLIMPORT
 #define UE_ENABLE_ICU 1
 #define WITH_VS_PERF_PROFILER 0
@@ -51,4 +53,4 @@
 #define WITH_MALLOC_STOMP 1
 #define CORE_API DLLIMPORT
 #define TRACELOG_API DLLIMPORT
-#include "E:/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h"
+#include "D:/UE_4.27/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h"

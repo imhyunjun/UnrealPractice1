@@ -39,7 +39,7 @@ public: \
 	NO_API APawnTurret(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APawnTurret) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APawnTurret); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTurret); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTurret); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APawnTurret(APawnTurret&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API APawnTurret(const APawnTurret&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APawnTurret); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTurret); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTurret); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APawnTurret)
 
 

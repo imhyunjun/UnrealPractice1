@@ -39,7 +39,7 @@ public: \
 	NO_API APawnBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APawnBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APawnBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnBase); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APawnBase(APawnBase&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API APawnBase(const APawnBase&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APawnBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APawnBase)
 
 

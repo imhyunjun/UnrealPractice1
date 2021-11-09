@@ -19,6 +19,7 @@ void APawnTank::BeginPlay()
 {
 	Super::BeginPlay();
 	
+    playerControllerRef = Cast<APlayerController>(GetController());
 }
 
 // Called every frame

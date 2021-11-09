@@ -36,6 +36,8 @@ private:
 	void Move();
 	void Rotate();
 
+	APlayerController* playerControllerRef;
+
 public:
 
 	APawnTank();

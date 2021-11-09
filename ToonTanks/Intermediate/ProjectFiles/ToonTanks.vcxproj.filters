@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\ToonTanks.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{745F5B97-B715-450B-8D31-DB9243D29BC7}</UniqueIdentifier>
+      <UniqueIdentifier>{F3A246C8-A3E1-4A0B-9628-66ECFE266D3A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ToonTanks.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\ToonTanksEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\ToonTanks.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{D970918A-9AA3-4E56-A30D-43F4CC010CF6}</UniqueIdentifier>
+      <UniqueIdentifier>{C021EFBB-FF06-4169-9BC4-8DACC8071192}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,14 +29,8 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ToonTanks">
-      <UniqueIdentifier>{DB326BA0-537B-439F-807C-961813834CA1}</UniqueIdentifier>
+      <UniqueIdentifier>{10C9CA9A-DF36-4E3A-8649-1748D9D79843}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ToonTanks\PawnBase.cpp">
-      <Filter>Source\ToonTanks</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ToonTanks\PawnBase.h">
-      <Filter>Source\ToonTanks</Filter>
-    </ClInclude>
     <None Include="..\..\Source\ToonTanks\ToonTanks.Build.cs">
       <Filter>Source\ToonTanks</Filter>
     </None>
@@ -43,6 +39,27 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\ToonTanks\ToonTanks.h">
       <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTanks\Pawn">
+      <UniqueIdentifier>{2A8E4CE2-336A-4515-BAFB-F994AB0814E2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTanks\Pawn\PawnBase.cpp">
+      <Filter>Source\ToonTanks\Pawn</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Pawn\PawnBase.h">
+      <Filter>Source\ToonTanks\Pawn</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\Pawn\PawnTank.cpp">
+      <Filter>Source\ToonTanks\Pawn</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Pawn\PawnTank.h">
+      <Filter>Source\ToonTanks\Pawn</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\Pawn\PawnTurret.cpp">
+      <Filter>Source\ToonTanks\Pawn</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Pawn\PawnTurret.h">
+      <Filter>Source\ToonTanks\Pawn</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
