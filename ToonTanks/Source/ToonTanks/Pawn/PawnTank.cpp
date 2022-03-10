@@ -5,6 +5,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 
+
 APawnTank::APawnTank()
 {
     SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
@@ -27,6 +28,18 @@ void APawnTank::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+    if(playerControllerRef)
+    {
+        FHitResult hitResult;
+
+        playerControllerRef->GetHitResultUnderCursor(
+            ECollisionChannel::ECC_Visibility,
+            false, 
+            hitResult);
+
+        APawnBase::RotateTurretFunction(hitResult.ImpactPoint);          
+    }
+
     Rotate();
     Move();
 }
@@ -36,8 +49,10 @@ void APawnTank::Tick(float DeltaTime)
 void APawnTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-    PlayerInputComponent->BindAxis("MoveForward", this, &APawnTank::CalculateMoveInput);
-    PlayerInputComponent->BindAxis("Turn", this, &APawnTank::CalculateRotateInput);
+    PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &APawnTank::CalculateMoveInput);
+    PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APawnTank::CalculateRotateInput);
+
+    PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &APawnTank::Fire);
 
 }
 

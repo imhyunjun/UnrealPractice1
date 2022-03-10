@@ -1,47 +1,57 @@
 [
     {
         "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawn\\\\PawnBase.cpp",
-        "command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "D:\\UE_4.27\\Engine\\Source"
     },
     {
         "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawn\\\\PawnBase.h",
-        "command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "D:\\UE_4.27\\Engine\\Source"
     },
     {
         "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawn\\\\PawnTank.cpp",
-        "command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "D:\\UE_4.27\\Engine\\Source"
     },
     {
         "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawn\\\\PawnTank.h",
-        "command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "D:\\UE_4.27\\Engine\\Source"
     },
     {
         "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawn\\\\PawnTurret.cpp",
-        "command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "D:\\UE_4.27\\Engine\\Source"
     },
     {
         "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawn\\\\PawnTurret.h",
-        "command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "directory": "D:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Projectile.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "directory": "D:\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Projectile.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "D:\\UE_4.27\\Engine\\Source"
     },
     {
         "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanks.Build.cs",
-        "command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "D:\\UE_4.27\\Engine\\Source"
     },
     {
         "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanks.cpp",
-        "command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "D:\\UE_4.27\\Engine\\Source"
     },
     {
         "file": "D:\\\\workspace\\\\Unreal\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanks.h",
-        "command": "cl.exe @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\workspace\\Unreal\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "D:\\UE_4.27\\Engine\\Source"
     }
 ]

@@ -19,6 +19,11 @@ void APawnTurret::BeginPlay()
 void APawnTurret::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+    
+    if(InFireRange())
+    {
+        RotateTurretFunction(PlayerPawn->GetActorLocation());
+    }
 }
 
 void APawnTurret::CheckFireCondition()
@@ -26,21 +31,34 @@ void APawnTurret::CheckFireCondition()
     //If player == null || is dad then bail
     //if player is in range then fire
 
-    if(!PlayerPawn) return;
-    if(ReturnDistanceToPlayer() <= FireRange)
+    if(InFireRange())
     {
         //Fire
-        UE_LOG(LogTemp, Warning, TEXT("Fire"));
+        //UE_LOG(LogTemp, Warning, TEXT("Fire"));
+        Fire();
     }
     
 }
 
 float APawnTurret::ReturnDistanceToPlayer()
 {
-    if(!PlayerPawn) return 0.0f;
+    if(!PlayerPawn) return 100.0f;
 
     float distance = FVector::Dist(PlayerPawn->GetActorLocation(), GetActorLocation());
     return distance;
+}
+
+bool APawnTurret::InFireRange()
+{
+    if(PlayerPawn)
+    {
+        if(ReturnDistanceToPlayer() <= FireRange)
+        {
+            return true;
+        }
+    }
+    
+    return false;
 }
 
 

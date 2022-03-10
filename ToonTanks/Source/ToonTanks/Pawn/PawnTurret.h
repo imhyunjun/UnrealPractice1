@@ -22,9 +22,8 @@ private:
 	
 	FTimerHandle FireRateTimerHandle;
 	APawnTank* PlayerPawn;
-
 	void CheckFireCondition();
-
+	bool InFireRange();
 	float ReturnDistanceToPlayer();
 
 public:

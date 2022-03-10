@@ -3,6 +3,8 @@
 
 #include "PawnBase.h"
 #include "Components/CapsuleComponent.h"
+#include "DrawDebugHelpers.h"
+#include "ToonTanks/Projectile.h"
 
 // Sets default values
 APawnBase::APawnBase()
@@ -22,5 +24,38 @@ APawnBase::APawnBase()
 	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("ProjectileSpawnPoint"));
 	ProjectileSpawnPoint->SetupAttachment(TurretMesh);
 
+}
+
+void APawnBase::RotateTurretFunction(FVector _lookAtTarget)
+{
+	FVector toTarget = _lookAtTarget - TurretMesh->GetComponentLocation();
+	
+	//땅과평행하게 회전
+	//첫번째 방법
+	//FRotator lookAtRotation = toTarget.Rotation();
+	// lookAtRotation.Pitch = 0.f;
+	// lookAtRotation.Roll = 0.f;
+
+	//두번째
+	FRotator lookAtRotation = FRotator(0.f, toTarget.Rotation().Yaw, 0.f);
+	TurretMesh->SetWorldRotation(lookAtRotation);
+}
+
+void APawnBase::Fire()
+{
+	FVector projectileSpawnPointLocation = ProjectileSpawnPoint->GetComponentLocation();
+	FRotator rotation = ProjectileSpawnPoint->GetComponentRotation();
+
+	GetWorld()->SpawnActor<AProjectile>(proectileClass, projectileSpawnPointLocation, rotation);
+
+    // DrawDebugSphere(
+    //         GetWorld(),
+    //         projectileSpawnPointLocation,
+    //         25.f,
+    //         12,
+    //         FColor::Red,
+    //         false,
+    //         3.f
+    //     );
 }
 
