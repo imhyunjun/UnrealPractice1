@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 #include "Projectile.generated.h"
 
 UCLASS()
@@ -22,6 +23,14 @@ protected:
 private:
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
 	UStaticMeshComponent* projectileMesh;
+	UPROPERTY(VisibleAnywhere, Category = "Movement")
+	UProjectileMovementComponent* projectileMovement;
+
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* _hitComp, AActor* _otherActor, UPrimitiveComponent* _otherComp, FVector _normalImpulse, const FHitResult& _hit);
+
+	UPROPERTY(EditAnywhere)
+	float damage = 50.f;
 
 public:	
 	// Called every frame

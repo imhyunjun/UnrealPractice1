@@ -46,8 +46,8 @@ void APawnBase::Fire()
 	FVector projectileSpawnPointLocation = ProjectileSpawnPoint->GetComponentLocation();
 	FRotator rotation = ProjectileSpawnPoint->GetComponentRotation();
 
-	GetWorld()->SpawnActor<AProjectile>(proectileClass, projectileSpawnPointLocation, rotation);
-
+	auto projectile = GetWorld()->SpawnActor<AProjectile>(proectileClass, projectileSpawnPointLocation, rotation);
+	projectile->SetOwner(this);
     // DrawDebugSphere(
     //         GetWorld(),
     //         projectileSpawnPointLocation,
