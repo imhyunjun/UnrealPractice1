@@ -26,6 +26,12 @@ void APawnTurret::Tick(float DeltaTime)
     }
 }
 
+void APawnTurret::HandleDestruction()
+{
+    Super::HandleDestruction();
+    Destroy();
+}
+
 void APawnTurret::CheckFireCondition()
 {
     //If player == null || is dad then bail

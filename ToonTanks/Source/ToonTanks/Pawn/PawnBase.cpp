@@ -26,6 +26,11 @@ APawnBase::APawnBase()
 
 }
 
+void APawnBase::HandleDestruction()
+{
+	
+}
+
 void APawnBase::RotateTurretFunction(FVector _lookAtTarget)
 {
 	FVector toTarget = _lookAtTarget - TurretMesh->GetComponentLocation();
@@ -40,6 +45,7 @@ void APawnBase::RotateTurretFunction(FVector _lookAtTarget)
 	FRotator lookAtRotation = FRotator(0.f, toTarget.Rotation().Yaw, 0.f);
 	TurretMesh->SetWorldRotation(lookAtRotation);
 }
+
 
 void APawnBase::Fire()
 {

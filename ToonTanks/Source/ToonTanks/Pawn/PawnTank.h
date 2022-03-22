@@ -36,11 +36,13 @@ private:
 	void Move();
 	void Rotate();
 
-	APlayerController* playerControllerRef;
+	APlayerController* tankPlayerController;
 
 public:
 
 	APawnTank();
+	void HandleDestruction();
+	APlayerController* GetTankPlayerController() const { return tankPlayerController;}
 
 protected:
 	// Called when the game starts or when spawned

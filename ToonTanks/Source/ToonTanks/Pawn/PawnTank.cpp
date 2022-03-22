@@ -20,7 +20,7 @@ void APawnTank::BeginPlay()
 {
 	Super::BeginPlay();
 	
-    playerControllerRef = Cast<APlayerController>(GetController());
+    tankPlayerController = Cast<APlayerController>(GetController());
 }
 
 // Called every frame
@@ -28,11 +28,11 @@ void APawnTank::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-    if(playerControllerRef)
+    if(tankPlayerController)
     {
         FHitResult hitResult;
 
-        playerControllerRef->GetHitResultUnderCursor(
+        tankPlayerController->GetHitResultUnderCursor(
             ECollisionChannel::ECC_Visibility,
             false, 
             hitResult);
@@ -42,6 +42,13 @@ void APawnTank::Tick(float DeltaTime)
 
     Rotate();
     Move();
+}
+
+void APawnTank::HandleDestruction()
+{
+    Super::HandleDestruction();
+    SetActorHiddenInGame(true);
+    SetActorTickEnabled(false);
 }
 
 
