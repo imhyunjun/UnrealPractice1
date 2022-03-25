@@ -20,3 +20,5 @@ D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win6
 D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\PawnTank.generated.h
 D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Pawn\PawnTurret.h
 D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\PawnTurret.generated.h
+D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Pawn\ToonTanksPlayerController.h
+D:\workspace\Unreal\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\ToonTanksPlayerController.generated.h
