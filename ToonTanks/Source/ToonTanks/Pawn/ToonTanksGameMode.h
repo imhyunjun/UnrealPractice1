@@ -20,6 +20,9 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void StartGame();
+
 private:
 	class APawnTank* tank;
 	class AToonTanksPlayerController* toonTanksPlayerController;
