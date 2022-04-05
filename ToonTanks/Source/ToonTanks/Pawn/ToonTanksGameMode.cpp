@@ -24,6 +24,7 @@ void AToonTanksGameMode::ActorDied(AActor* _deadActor)
             // tank->DisableInput(tank->GetTankPlayerController());
             // tank->GetTankPlayerController()->bShowMouseCursor = false;
             toonTanksPlayerController->SetPlayerEnabledState(false);
+            GameOver(false);
         }
     }
     else if(APawnTurret* destroyTurret = Cast<APawnTurret>(_deadActor))
@@ -56,5 +57,10 @@ void AToonTanksGameMode::HandleGameStart()
             false
         );
     }
+}
+
+int32 AToonTanksGameMode::GetTargetTowerCount()
+{
+    return targetTowers;
 }
 
