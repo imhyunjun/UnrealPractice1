@@ -32,6 +32,21 @@ private:
 	UPROPERTY(EditAnywhere)
 	float damage = 50.f;
 
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	class UParticleSystem* hitParticles;
+
+	UPROPERTY(VisibleAnywhere, Category = "Combat")
+	class UParticleSystemComponent* particleSystem;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	class USoundBase* launchSound;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	USoundBase* hitSound;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	TSubclassOf<class UCameraShakeBase> hitCameraShakeClass;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

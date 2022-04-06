@@ -25,6 +25,13 @@ private:
 	USceneComponent* ProjectileSpawnPoint;
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
 	TSubclassOf<class AProjectile> proectileClass;
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	class UParticleSystem* deathParticles;
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	class USoundBase* deathSound;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	TSubclassOf<class UCameraShakeBase> deathCameraShakeClass;
 
 public:
 	// Sets default values for this pawn's properties

@@ -37,7 +37,12 @@ void APawnTurret::CheckFireCondition()
     //If player == null || is dad then bail
     //if player is in range then fire
 
-    if(InFireRange())
+    if(PlayerPawn == nullptr)
+    {
+        return;
+    }
+
+    if(InFireRange() && PlayerPawn->isAlive)
     {
         //Fire
         //UE_LOG(LogTemp, Warning, TEXT("Fire"));

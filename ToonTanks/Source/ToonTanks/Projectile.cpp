@@ -4,6 +4,9 @@
 #include "Projectile.h"
 #include "GameFramework/DamageType.h"
 #include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystemComponent.h"
+#include "Camera/CameraShakeBase.h"
+
 
 // Sets default values
 AProjectile::AProjectile()
@@ -15,8 +18,11 @@ AProjectile::AProjectile()
 	projectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
 	projectileMovement->MaxSpeed = 1300.f;
 	projectileMovement->InitialSpeed = 1300.f;
-	
+
 	RootComponent = projectileMesh;
+
+	particleSystem = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Particle Component"));
+	particleSystem->SetupAttachment(RootComponent);
 
 }
 
@@ -26,6 +32,9 @@ void AProjectile::BeginPlay()
 	Super::BeginPlay();
 	
 	projectileMesh->OnComponentHit.AddDynamic(this, &AProjectile::OnHit);
+
+	if(launchSound)
+		UGameplayStatics::PlaySoundAtLocation(this, launchSound, GetActorLocation());
 }
 
 // Called every frame
@@ -43,6 +52,12 @@ void AProjectile::OnHit(UPrimitiveComponent* _hitComp, AActor* _otherActor, UPri
 	// UE_LOG(LogTemp, Warning, TEXT("OtherComp : %s"), *_otherComp->GetName());
 
 	auto myOwner = GetOwner();
+	if(myOwner == nullptr)
+	{
+		Destroy();
+		return;
+	}
+
 	if(myOwner)
 	{
 		auto myOwnerInstigator = myOwner->GetInstigatorController();
@@ -51,8 +66,22 @@ void AProjectile::OnHit(UPrimitiveComponent* _hitComp, AActor* _otherActor, UPri
 		if(_otherActor && _otherActor != this && _otherActor != myOwner)
 		{
 			UGameplayStatics::ApplyDamage(_otherActor, damage, myOwnerInstigator, this, damageTypeClass);
-			Destroy();
+			if(hitParticles)
+			{
+				UGameplayStatics::SpawnEmitterAtLocation(this, hitParticles, GetActorLocation(), GetActorRotation());
+
+			}
+			if(hitSound)
+			{
+				UGameplayStatics::PlaySoundAtLocation(this, hitSound, GetActorLocation());
+			}
+			if(hitCameraShakeClass)
+			{
+				GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(hitCameraShakeClass);
+			}
+
 		}
 	}
+	Destroy();
 }
 

@@ -73,7 +73,12 @@ public: \
 #define ToonTanks_Source_ToonTanks_Projectile_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__projectileMesh() { return STRUCT_OFFSET(AProjectile, projectileMesh); } \
 	FORCEINLINE static uint32 __PPO__projectileMovement() { return STRUCT_OFFSET(AProjectile, projectileMovement); } \
-	FORCEINLINE static uint32 __PPO__damage() { return STRUCT_OFFSET(AProjectile, damage); }
+	FORCEINLINE static uint32 __PPO__damage() { return STRUCT_OFFSET(AProjectile, damage); } \
+	FORCEINLINE static uint32 __PPO__hitParticles() { return STRUCT_OFFSET(AProjectile, hitParticles); } \
+	FORCEINLINE static uint32 __PPO__particleSystem() { return STRUCT_OFFSET(AProjectile, particleSystem); } \
+	FORCEINLINE static uint32 __PPO__launchSound() { return STRUCT_OFFSET(AProjectile, launchSound); } \
+	FORCEINLINE static uint32 __PPO__hitSound() { return STRUCT_OFFSET(AProjectile, hitSound); } \
+	FORCEINLINE static uint32 __PPO__hitCameraShakeClass() { return STRUCT_OFFSET(AProjectile, hitCameraShakeClass); }
 
 
 #define ToonTanks_Source_ToonTanks_Projectile_h_10_PROLOG

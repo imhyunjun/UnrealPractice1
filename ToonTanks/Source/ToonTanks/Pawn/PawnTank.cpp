@@ -49,6 +49,7 @@ void APawnTank::HandleDestruction()
     Super::HandleDestruction();
     SetActorHiddenInGame(true);
     SetActorTickEnabled(false);
+    isAlive = false;
 }
 
 

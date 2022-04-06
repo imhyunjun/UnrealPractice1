@@ -43,6 +43,7 @@ public:
 	APawnTank();
 	void HandleDestruction();
 	APlayerController* GetTankPlayerController() const { return tankPlayerController;}
+	bool isAlive = true;
 
 protected:
 	// Called when the game starts or when spawned

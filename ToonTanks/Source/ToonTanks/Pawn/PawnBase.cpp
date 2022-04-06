@@ -5,6 +5,7 @@
 #include "Components/CapsuleComponent.h"
 #include "DrawDebugHelpers.h"
 #include "ToonTanks/Projectile.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 APawnBase::APawnBase()
@@ -28,7 +29,14 @@ APawnBase::APawnBase()
 
 void APawnBase::HandleDestruction()
 {
-	
+	if(deathParticles)
+		UGameplayStatics::SpawnEmitterAtLocation(this, deathParticles, GetActorLocation(), GetActorRotation());
+	if(deathSound)
+		UGameplayStatics::PlaySoundAtLocation(this, deathSound, GetActorLocation());
+	if(deathCameraShakeClass)
+	{
+		GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(deathCameraShakeClass);
+	}
 }
 
 void APawnBase::RotateTurretFunction(FVector _lookAtTarget)
